@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/demo02-servlet01/demo02-servlet01.iml" filepath="$PROJECT_DIR$/demo02-servlet01/demo02-servlet01.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javaweb_project.iml" filepath="$PROJECT_DIR$/.idea/javaweb_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/schedule_management_system/schedule_management_system.iml" filepath="$PROJECT_DIR$/schedule_management_system/schedule_management_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/topnews/topnews.iml" filepath="$PROJECT_DIR$/topnews/topnews.iml" />
     </modules>
   </component>
 </project>
