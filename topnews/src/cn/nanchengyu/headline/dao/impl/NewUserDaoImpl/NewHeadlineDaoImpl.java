@@ -3,6 +3,10 @@ package cn.nanchengyu.headline.dao.impl.NewUserDaoImpl;
 import cn.nanchengyu.headline.dao.BaseDao;
 import cn.nanchengyu.headline.dao.NewsHeadlineDao;
 import cn.nanchengyu.headline.dao.NewsUserDao;
+import cn.nanchengyu.headline.pojo.vo.HeadlineDetailVo;
+import cn.nanchengyu.headline.pojo.vo.HeadlineQueryVo;
+
+import java.util.List;
 
 /**
  * ClassName: NewUserDaoImpl
@@ -14,4 +18,23 @@ import cn.nanchengyu.headline.dao.NewsUserDao;
  * @Version 1.0
  */
 public class NewHeadlineDaoImpl extends BaseDao implements NewsHeadlineDao {
+    @Override
+    public int findPageCount(HeadlineQueryVo headlineQueryVO) {
+        return 0;
+    }
+
+    @Override
+    public List<HeadlineQueryVo> findPageList(NewsHeadlineDao headlineDao) {
+        return null;
+    }
+
+    @Override
+    public void incrPageViews(int hid) {
+
+    }
+
+    @Override
+    public HeadlineDetailVo findHeadlineDetail(int hid) {
+        return null;
+    }
 }

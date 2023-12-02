@@ -1,5 +1,10 @@
 package cn.nanchengyu.headline.service;
 
+import cn.nanchengyu.headline.pojo.vo.HeadlineDetailVo;
+import cn.nanchengyu.headline.pojo.vo.HeadlineQueryVo;
+
+import java.util.Map;
+
 /**
  * ClassName: newUserService
  * Package: cn.nanchengyu.headline.service
@@ -10,4 +15,12 @@ package cn.nanchengyu.headline.service;
  * @Version 1.0
  */
 public interface NewsHeadlineService {
+    /**
+     *
+     * @param headlineQueryVO
+     * @return
+     */
+    Map findPage(HeadlineQueryVo headlineQueryVO);
+
+    HeadlineDetailVo findHeadlineDetail(int hid);
 }

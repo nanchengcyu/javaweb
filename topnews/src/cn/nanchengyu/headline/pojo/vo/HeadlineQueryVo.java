@@ -10,10 +10,12 @@ package cn.nanchengyu.headline.pojo.vo;
  * @Version 1.0
  */
 
+import cn.nanchengyu.headline.dao.NewsHeadlineDao;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.io.Serializable;
+import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -23,4 +25,6 @@ public class HeadlineQueryVo implements Serializable {
     private Integer type ;
     private Integer pageNum;
     private Integer pageSize;
+
+
 }
