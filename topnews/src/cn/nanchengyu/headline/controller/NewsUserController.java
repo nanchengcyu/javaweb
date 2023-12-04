@@ -34,6 +34,8 @@ public class NewsUserController extends BaseController {
     private NewsUserService userService = new NewsUserServiceImpl();
 
 
+
+
     public void regist(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
     //接收JSON信息
         NewsUser registUser = WebUtil.readJson(req, NewsUser.class);

@@ -50,4 +50,9 @@ public class NewsHeadlineServiceImpl implements NewsHeadlineService {
         //查询头条详情
         return  headlineDao.findHeadlineDetail(hid);
     }
+
+    @Override
+    public int removeByHid(int hid) {
+        return headlineDao.removeByHid(hid);
+    }
 }

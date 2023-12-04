@@ -23,4 +23,6 @@ public interface NewsHeadlineService {
     Map findPage(HeadlineQueryVo headlineQueryVO);
 
     HeadlineDetailVo findHeadlineDetail(int hid);
+
+   int removeByHid(int hid);
 }

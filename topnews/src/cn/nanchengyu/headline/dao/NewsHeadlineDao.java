@@ -24,4 +24,6 @@ public interface NewsHeadlineDao {
     void incrPageViews(int hid);
 
     HeadlineDetailVo findHeadlineDetail(int hid);
+
+    int removeByHid(int hid);
 }

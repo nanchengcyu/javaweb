@@ -37,4 +37,9 @@ public class NewHeadlineDaoImpl extends BaseDao implements NewsHeadlineDao {
     public HeadlineDetailVo findHeadlineDetail(int hid) {
         return null;
     }
+
+    @Override
+    public int removeByHid(int hid) {
+        return 0;
+    }
 }
