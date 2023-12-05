@@ -5,8 +5,14 @@
     <file url="file://$PROJECT_DIR$/demo02-servlet01/src/cn/nanchengyu/servlet/Servlet06.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/demo02-servlet01/src/cn/nanchengyu/servlet/ServletA.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/demo02-servlet01/src/cn/nanchengyu/servlet/ServletB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/nanchengyu-spring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nanchengyu-spring/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring6-aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring6-aop/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring6-ioc-annotation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring6-ioc-annotation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring6-reflect/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring6-reflect/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

@@ -9,6 +9,9 @@
       <list>
         <option value="$PROJECT_DIR$/boot3-redis/pom.xml" />
         <option value="$PROJECT_DIR$/spring6-ioc-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-reflect/pom.xml" />
+        <option value="$PROJECT_DIR$/nanchengyu-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-aop/pom.xml" />
       </list>
     </option>
   </component>
