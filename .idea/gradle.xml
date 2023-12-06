@@ -11,6 +11,22 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/boot3-1-rpc" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/boot3-1-rpc" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/boot3-12-message" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/boot3-12-message" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>

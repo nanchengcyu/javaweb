@@ -1,0 +1,29 @@
+package cn.nanchengyu.spring6.validator.two;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.validation.Validator;
+
+import java.net.BindException;
+
+/**
+ * ClassName: MyValidation1
+ * Package: cn.nanchengyu.spring6.validator.two
+ * Description:
+ *
+ * @Author 南城余
+ * @Create 2023/12/6 15:57
+ * @Version 1.0
+ */
+//@Service
+//public class MyValidation2 {
+//    @Autowired
+//    private Validator validator;
+//    public boolean validateByUserTwo(User user) {
+//        BindException bindException = new BindException(user,user.getName());
+//        validator.validate(user, bindException);
+//        return bindException.hasErrors();
+//    }
+//
+//}
