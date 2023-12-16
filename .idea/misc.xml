@@ -18,6 +18,8 @@
         <option value="$PROJECT_DIR$/spring6-validator/pom.xml" />
         <option value="$PROJECT_DIR$/boot3-1-rpc/pom.xml" />
         <option value="$PROJECT_DIR$/boot3-12-message/pom.xml" />
+        <option value="$PROJECT_DIR$/boot3-13-security/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-starter/pom.xml" />
       </list>
     </option>
   </component>

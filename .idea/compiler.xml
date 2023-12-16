@@ -8,8 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="boot3-12-message" />
+        <module name="boot3-13-security" />
         <module name="boot3-1-rpc" />
         <module name="spring6-resources" />
+        <module name="springboot-starter" />
         <module name="nanchengyu-spring" />
         <module name="boot3-redis" />
         <module name="spring6-aop" />
@@ -23,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="boot3-1-rpc" options="-parameters" />
       <module name="boot3-12-message" options="-parameters" />
+      <module name="boot3-13-security" options="-parameters" />
       <module name="boot3-redis" options="-parameters" />
     </option>
   </component>
