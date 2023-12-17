@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="boot3-12-message" />
         <module name="boot3-13-security" />
+        <module name="springboot-mybatis-quickstart" />
         <module name="boot3-1-rpc" />
         <module name="spring6-resources" />
         <module name="springboot-starter" />
