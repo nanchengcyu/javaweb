@@ -10,15 +10,16 @@
         <module name="boot3-12-message" />
         <module name="boot3-13-security" />
         <module name="springboot-mybatis-quickstart" />
-        <module name="boot3-1-rpc" />
         <module name="spring6-resources" />
-        <module name="springboot-starter" />
         <module name="nanchengyu-spring" />
-        <module name="boot3-redis" />
         <module name="spring6-aop" />
         <module name="spring6-reflect" />
-        <module name="spring6-validator" />
         <module name="spring6-ioc-annotation" />
+        <module name="boot3-1-rpc" />
+        <module name="tlias" />
+        <module name="springboot-starter" />
+        <module name="boot3-redis" />
+        <module name="spring6-validator" />
       </profile>
     </annotationProcessing>
   </component>
