@@ -1,5 +1,7 @@
 package cn.nanchengyu.tlias.controller;
 
+import cn.nanchengyu.tlias.anno.Log;
+import cn.nanchengyu.tlias.mapper.EmpMapper;
 import cn.nanchengyu.tlias.pojo.Dept;
 import cn.nanchengyu.tlias.pojo.Result;
 import cn.nanchengyu.tlias.service.DeptService;
@@ -21,13 +23,15 @@ import java.util.List;
  */
 @Slf4j
 @RestController
-@RequestMapping("depts")
+@RequestMapping("/depts")
 public class DeptController {
     //    private static Logger log = LoggerFactory.getLogger(DeptController.class); 此处可以借助@slf4j 注解 具体可以看@slf4j源码
     @Autowired
     private DeptService deptService;
 
+
     //    @RequestMapping("/depts")
+    @Log
     @GetMapping
     public Result list() {
 
@@ -37,14 +41,14 @@ public class DeptController {
         return Result.success(deptList);
 
     }
-
+    @Log
     @DeleteMapping("/{id}")
     public Result delete(@PathVariable Integer id) {
         log.info("删除部门信息，id:{}", id);
        deptService.delete(id);
        return Result.success();
     }
-
+    @Log
     @PostMapping
     public Result add(@RequestBody Dept dept) {
         log.info("添加部门信息");
